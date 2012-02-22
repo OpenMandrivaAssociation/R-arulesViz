@@ -9,10 +9,11 @@ Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_0.1-4.tar.gz
-Requires:         R-arules R-MASS R-scatterplot3d R-vcd R-seriation R-igraph 
-Requires:         R-iplots R-Rgraphviz 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-arules R-MASS R-scatterplot3d R-vcd R-seriation R-igraph
-BuildRequires:    R-iplots R-Rgraphviz 
+Requires:         R-arules R-MASS R-scatterplot3d R-vcd R-seriation R-igraph
+Requires:         R-iplots R-Rgraphviz
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-arules
+BuildRequires:    R-MASS R-scatterplot3d R-vcd R-seriation R-igraph
+BuildRequires:    R-iplots R-Rgraphviz
 
 %description
 Various visualization techniques for association rules and itemsets. The
